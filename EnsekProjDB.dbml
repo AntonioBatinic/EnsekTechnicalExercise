@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="EnsekProjDB" Class="EnsekProjDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-9P3BVR9\LOCALDB;Initial Catalog=EnsekProjDB;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="EnsekProjDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Accounts" Member="Accounts">
+    <Type Name="Account">
+      <Column Name="AccountId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Meter_Readings" Member="Meter_Readings">
+    <Type Name="Meter_Reading">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AccountID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MeterReadingDateTime" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="MeterReadValue" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

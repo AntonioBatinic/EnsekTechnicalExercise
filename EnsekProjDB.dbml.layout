@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="EnsekProjDB">
+  <DataContextMoniker Name="/EnsekProjDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b433ec11-d74e-4704-8a90-139fe1fcec8d" absoluteBounds="8.125, 2.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/EnsekProjDBDataContext/Account" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f1d34731-e8b3-483c-9c61-0ce53dcf6f13" absoluteBounds="8.14, 2.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="845aa9de-e237-4cc8-ad97-a422feae0d4c" absoluteBounds="6.25, 2.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/EnsekProjDBDataContext/Meter_Reading" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba76e447-9d71-40a4-b9f9-b9b2d3d8d41c" absoluteBounds="6.265, 3.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
